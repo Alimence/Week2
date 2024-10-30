@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Our products</title>
+        <style>
+            .main{
+                text-align: center ;
+            }
+            .main-heading p{
+                color: grey; 
+                font-weight: 400;
+            }
+            .main-container{
+               display: flex;
+               justify-content: center;
+            }
+            .product-container{
+                text-align: center;
+                border: 1px solid gray;
+                border-radius: 20px;
+                margin: 10px;
+            }
+            .product-container img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .product-container h3{
+                font-weight: 400;
+            }
+            .product-title{
+                color: grey;
+                font-size: 14px;
+            }
+
+            .borderless-buttons{
+                border: none;
+                padding: 8px  16px;
+                border-radius: 7px;
+                margin: 5px;
+            }
+            .about-button{
+                background:#0025e2 ;
+                color: white ;
+            }
+            .contact-button{
+                background:  white;
+                color: gray;
+                border:  solid gray 25px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section >
+            <div class="main">
+                 <div>
+                    <h1>Meet our products</h1>
+                    <p style=" color: gray; font-weight: 400;">We help you to choose your dream car</p>
+                 </div>
+
+                 <div>
+                    <button class=" borderless-buttons About-button "  title="Go to About us page" style="background: #0025e2;color: white;">About Us</button>
+                    <button class=" borderless-buttons Contact-button" title="Go to Contact Page" style="background: white;color: grey;">Contact</button>
+                </div><br><br>
+            </div>
+
+            <div class="main-container">
+                 <div class="product-container">
+                    <img src="./Audi RS5.jpeg" alt="Audi RS5" height="150" width="250">
+                    <p class="product-title">Audi RS5</p>
+                    <h3>480-housepowerV8 engine</h3>
+                    <p>&spades;</p>
+                 </div>
+
+                 <div class="product-container">
+                    <img src="./Rollsroyce.jpeg" alt="Collins Rollsroyce" height="150" width="250">
+                    <p  class="product-title">Collins Rollsroyce</p>
+                    <h3>563 Horse power</h3>
+                    <p>&clubs;</p>
+                </div>
+
+                <div class="product-container">
+                    <img src="./ferrari.jpeg" alt="488 Spider Ferrari" height="150" width="250">
+                    <p  class="product-title">488 Spider Ferrari</p>
+                    <h3>670 Horse power</h3>
+                    <p>&hearts;</p>
+                </div>
+ 
+                <div class="product-container">
+                    <img src="./Lambogni.jpeg" alt="Lambogni Revuelto" height="150" width="250">
+                    <p  class="product-title">Lambogni revuelto</p>
+                    <h3>1001 Horse power</h3>
+                    <p>&diams;</p>
+                </div>
+
+             </div>
+        
+
+        </section>
+    </body>
+</html>
